@@ -1,0 +1,24 @@
+composer install
+
+
+composer require twig
+
+composer require --dev symfony/maker-bundle
+
+symfony console list make (show list make)
+
+
+
+symfony console make: ... ex:controller
+
+
+composer require --dev symfony/profiler-pack (show dashboard in micro-post routing)
+
+
+composer require symfony/orm-pack / No and create a file name as docker-compose.yml
+
+configuration of docker-compose.yml:https://www.fadocodecamp.com/posts/running-a-mysql-database-with-docker-compose-a-beginners-guide
+
+symfony console list doctrine
+symfony console doctrine:database:create
+symfony console make:entity (first:MicroPost)
