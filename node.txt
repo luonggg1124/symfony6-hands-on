@@ -20,5 +20,21 @@ composer require symfony/orm-pack / No and create a file name as docker-compose.
 configuration of docker-compose.yml:https://www.fadocodecamp.com/posts/running-a-mysql-database-with-docker-compose-a-beginners-guide
 
 symfony console list doctrine
+
 symfony console doctrine:database:create
+
 symfony console make:entity (first:MicroPost)
+
+symfony console make:migration
+symfony console doctrine:migration:status
+
+symfony console doctrine:migrations:migrate / yes
+Check again by running the command line: symfony console doctrine:migration:status
+
+symfony console doctrine:migrations:migrate --help
+symfony console doctrine:migrations:migrate prev / yes
+
+check this again: symfony console doctrine:migration:status
+symfony console doctrine:migrations:migrate / yes //check database on the website
+
+symfony console doctrine:migrations:migrate --no-interaction
