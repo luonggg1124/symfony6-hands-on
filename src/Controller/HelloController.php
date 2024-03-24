@@ -12,8 +12,8 @@ class HelloController
     #[Route('/', name:'app_index')]
     public function index():Response
     {
-        return new Response('Hi');
+        return new Response('Hidsfds');
     }
-
+    
     
 }
