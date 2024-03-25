@@ -42,3 +42,6 @@ symfony console doctrine:migrations:migrate --no-interaction
 composer require --dev orm-fixtures
 // fix App\DataFixtures after that running the command line: symfony console doctrine:fixtures:load / yes
 //If editing data in table on the website let's running the command line symfony console doctrine:fixtures:load / yes
+
+
+composer require sensio/framework-extra-bundle
