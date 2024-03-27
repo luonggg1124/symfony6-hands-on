@@ -49,3 +49,6 @@ composer require sensio/framework-extra-bundle
 composer require symfony/form
 
  symfony console make:form / MicroPostType / MicroPost
+
+
+composer require symfony/validator
